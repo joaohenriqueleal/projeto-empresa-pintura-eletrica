@@ -7,19 +7,19 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: rgb(239, 239, 239);
+}
+
 body {
     max-width: 1400px;
     margin: auto;
 }
 
-html {
-    background-color: black;
-}
-
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #353535;
+    background-color: rgba(0, 200, 0, 0.682);
     padding: 20px;
     color: white;
 }
@@ -28,44 +28,51 @@ header h1 {
     text-align: center;
     padding: 30px 30px 10px 30px;
     font-size: 40px;
-    font-weight: bolder;
-    text-shadow: 8px 8px 8px rgba(0, 0, 0, 0.39);
+    font-weight: 400;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.29);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
 }
 
 header p {
     padding: 30px;
     font-size: 23px;
     font-weight: bolder;
-    text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.37);
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.27);
     text-align: center;
+    margin-left: 30px;
 }
 
 header div.logo-area {
-    width: 600px;
+    width: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 50px;
 }
 
 header img.logo {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.38);
-    border: 4px solid rgba(37, 37, 37, 0.895);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
+    border: 5px solid rgb(0, 119, 0);
     cursor: pointer;
     transition: .3s;
 }
 
 header img.logo:hover {
     transform: scale(1.03);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.38);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+header div.titulo-slogan {
+    max-width: 800px;
 }
 
 main {
     padding: 20px;
-    background-color: rgb(25, 25, 25);
+    background-color: white;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -73,14 +80,14 @@ main {
 }
 
 main section {
-    max-width: 1200px;
+    max-width: 1250px;
     padding: 40px;
     display: flex;
     justify-content: center;
-    border: 4px solid #353535;
+    border: 4px solid rgba(0, 200, 0, 0.682);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.28);
     margin-bottom: 20px;
-    border-radius: 30px;
-    background-color: rgb(120, 120, 120);
+    background: rgba(0, 200, 0, 0.682);
 }
 
 main section h2 {
@@ -88,23 +95,22 @@ main section h2 {
     font-size: 40px;
     color: white;
     margin-bottom: 50px;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.258);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.208);
 }
 
 main section p {
     font-size: 25px;
     color: white;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.33);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
     font-weight: bolder;
 }
 
 main section img {
     height: 400px;
     width: 600px;
-    border-radius: 10px;
-    border: 4px solid rgb(157, 157, 157);
+    border: 4px solid white;
     margin: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.33);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
 }
 
 footer {
@@ -117,6 +123,13 @@ footer div.redes {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer h1 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
 }
 
 ul {
