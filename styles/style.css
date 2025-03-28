@@ -44,7 +44,7 @@ header p {
 }
 
 header div.logo-area {
-    width: 300px;
+    max-width: 300px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -53,7 +53,7 @@ header div.logo-area {
 
 header img.logo {
     border-radius: 50%;
-    width: 200px;
+    max-width: 200px;
     height: 200px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
     border: 5px solid rgb(0, 119, 0);
@@ -107,7 +107,7 @@ main section p {
 
 main section img {
     height: 400px;
-    width: 600px;
+    max-width: 600px;
     border: 4px solid white;
     margin: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
